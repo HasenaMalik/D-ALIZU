@@ -3,8 +3,8 @@ module.exports.config = {
 	name: "GANA SONG",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "AADI BABU", 
-	description: "THIS BOT IS MR AADI BABU",
+	credits: "ZOYA BABU", 
+	description: "THIS BOT IS MR ZOYA BABU",
 	commandCategory: "no prefix",
     cooldowns: 5, 
 };
