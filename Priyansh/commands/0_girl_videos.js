@@ -2,7 +2,7 @@ module.exports.config = {
   name: "girlvideo",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AADI BABU",
+  credits: "ZOYA BABU",
   description: "GIRL STATUS VEDIO",
   commandCategory: "GIRL STATUS VIDEO",
   usages: "Status video",
