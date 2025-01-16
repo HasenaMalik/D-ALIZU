@@ -3,7 +3,7 @@ module.exports.config = {
   name: "AADI BOT 2",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "AADI BABU",
+  credits: "ZOYA BABU",
   description: "all reply",
   commandCategory: "Noprefix",
   usages: "noprefix",
