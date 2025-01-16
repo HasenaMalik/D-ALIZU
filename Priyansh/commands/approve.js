@@ -3,7 +3,7 @@ module.exports.config = {
 	version: "1.0.2",
 	hasPermssion: 2,
 	credits: "ZOYA BABU",
-	description: "THIS BOT IS MR AADI BABU",
+	description: "THIS BOT IS MR ZOYA BABU",
 	commandCategory: "Admin",
     cooldowns: 5
 };
