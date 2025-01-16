@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "approve",
 	version: "1.0.2",
 	hasPermssion: 2,
-	credits: "AADI BABU",
+	credits: "ZOYA BABU",
 	description: "THIS BOT IS MR AADI BABU",
 	commandCategory: "Admin",
     cooldowns: 5
@@ -30,7 +30,7 @@ module.exports.handleReply = async function ({ event, api, Currencies, handleRep
                 case `A`: {
    			data.push(idBox);
    			fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-   			api.sendMessage(`𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 𝐁𝐨𝐭\n\n𝐎𝐰𝐧𝐞𝐫 ➻     𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 \n\n 𝐀𝐩𝐏 𝐊𝐚 𝐆𝐫𝐎𝐮𝐏 𝐀𝐩𝐏𝐑𝐨𝐕𝐚𝐋 𝐊𝐚𝐑 𝐃𝐢𝐘𝐚 𝐇𝐚𝐈 =𝐎𝐰𝐧𝐞𝐫 ➻    𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 \n${idBox}`, threadID, () => {
+   			api.sendMessage(`𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐙𝐨𝐲𝐚 𝐛𝐚𝐛𝐮 𝐁𝐨𝐭\n\n𝐎𝐰𝐧𝐞𝐫 ➻     𝐙𝐨𝐲𝐚 𝐛𝐚𝐛𝐮 \n\n 𝐀𝐩𝐏 𝐊𝐚 𝐆𝐫𝐎𝐮𝐏 𝐀𝐩𝐏𝐑𝐨𝐕𝐚𝐋 𝐊𝐚𝐑 𝐃𝐢𝐘𝐚 𝐇𝐚𝐈 =𝐎𝐰𝐧𝐞𝐫 ➻    𝐙𝐨𝐲𝐚 𝐛𝐚𝐛𝐮 \n${idBox}`, threadID, () => {
           dataP.splice(dataP.indexOf(idBox), 1);
     		fs.writeFileSync(dataPending, JSON.stringify(dataP, null, 2));
     	}, messageID)
