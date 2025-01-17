@@ -15,11 +15,11 @@ module.exports.config = {
 };
 
 const gifs = [
-                "https://i.imgur.com/tHEXvmB.gif",
-                "https://i.imgur.com/1JHNURO.gif",
-                "https://i.imgur.com/33o7MID.gif",
-                "https://i.imgur.com/MLO0Dsu.gif",
-                "https://i.imgur.com/p7CU3PB.gif"
+                "https://i.imgur.com/UbDUXjq.jpeg",
+                "https://i.imgur.com/yR5Limf.jpeg",
+                "https://i.imgur.com/ue9cY6t.jpeg",
+                "https://i.imgur.com/gOMCMD3.jpeg",
+                "https://i.imgur.com/EhrLcDq.jpeg"
 ];
 
 const messages = [
