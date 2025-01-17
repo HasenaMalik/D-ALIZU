@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.0", 
   hasPermssion: 0,
   credits: "ZOYA BABU",
-  description: "THIS BOT IS MR AADI SHARMA",
+  description: "THIS BOT IS MR ZOYA SHARMA",
   commandCategory: "COUPLE LOVE PAIRING", 
   usages: "pair", 
   cooldowns: 15
