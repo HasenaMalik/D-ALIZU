@@ -81,7 +81,7 @@ module.exports.run = async function ({ api, event, args }) {
             return api.sendMessage({ 
                 body: `┏━━━━━┓\n
      ज़ोया-बाबू                    ✧═══•❁𝗦𝗢𝗡𝗚❁•═══✧\n
-┗━━━━━┛\n\n🎵 Title 𒁍  ${data.title}\n🎶 Name Channel 𒁍   ${data.author}\n⏱️ Time 𒁍   ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes 𒁍   ${data.likes}\n⏱️ Processing time 𒁍   ${Math.floor((Date.now()- data.timestart)/1000)} second\n✧═══•❁AADI-BABU❁•═══✧`,
+┗━━━━━┛\n\n🎵 Title 𒁍  ${data.title}\n🎶 Name Channel 𒁍   ${data.author}\n⏱️ Time 𒁍   ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes 𒁍   ${data.likes}\n⏱️ Processing time 𒁍   ${Math.floor((Date.now()- data.timestart)/1000)} second\n✧═══•❁ZOYA-BABU❁•═══✧`,
                 attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
             event.messageID)
             
